@@ -21,7 +21,7 @@ The main dependencies are:
 
 ## Pre-trained BERT Model
 
-We are using the DistilBERT model, a transformer-based machine learning model, specifically designed for natural language processing tasks. The DistilBERT model is a smaller version of the BERT model. It has 40% less parameters than `bert-base-uncased` and runs 60% faster, while preserving over 95% of BERT's performances.
+I used the DistilBERT model, a transformer-based machine learning model, specifically designed for natural language processing tasks. The DistilBERT model is a smaller version of the BERT model. It has 40% less parameters than `bert-base-uncased` and runs 60% faster, while preserving over 95% of BERT's performances.
 
 The model is trained in an unsupervised manner on a large corpus of text, which allows it to learn a representation of the language. We use the pre-trained model to convert our sentences into vectors (or embeddings). These vectors capture the semantic meaning of the sentences and can be used for various downstream tasks like classification, information extraction, etc.
 
