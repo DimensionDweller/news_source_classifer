@@ -1,6 +1,6 @@
 # News Source Classifier
 
-This project is about creating a classifier that can predict the source of a news article given the content of the article. The sources of news we are considering are CNN, Fox News, MSNBC, and Breitbart. We utilize a pre-trained BERT model to extract features from the articles and perform the classification. After 10 epochs of training, the model achieved an accuracy of 0.9514 with a loss of 0.1718.
+This project is about creating a classifier that can predict the source of a news article given the content of the article. The sources of news we are considering are CNN, Fox News, MSNBC, and Breitbart. I utilize a pre-trained BERT model to extract features from the articles and perform the classification. After 10 epochs of training, the model achieved an accuracy of 0.9514 with a loss of 0.1718.
 
 ## Dependencies
 
